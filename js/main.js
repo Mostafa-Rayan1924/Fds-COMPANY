@@ -36,8 +36,3 @@ document.querySelector("#up").addEventListener("click", () => {
     behavior: "smooth",
   });
 });
-
-document.querySelector(".contacts").onclick = (e) => {
-  e.preventDefault();
-  window.location = "contact.html";
-};

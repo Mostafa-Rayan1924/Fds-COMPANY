@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 :root{
     --main-color: #2196f3;
     --alt-color: #1787e0;
@@ -196,9 +197,12 @@ transition: 0.3s;
     .navbar .nav-item{
         margin-bottom: 10px;
     }
-    .navbar .main-btn{
+    .navbar .contact a{
+        display: block;
         transform: translateX(-18px);
-    margin-bottom: 15px;
+        margin-bottom: 15px;
+        width: fit-content;
+        margin: 0px auto 15px;
     }
 }
 /* end nav */
@@ -729,6 +733,7 @@ transform: translate(-50%, -50%);
     display: block;
     border-radius: 14px;
     max-width: 90%;
+    border: 3px solid var(--main-color);
 }
 .video img{
     position: absolute;
@@ -993,6 +998,11 @@ text-align: center;
 .about-whoAre .box button{
     margin-bottom: 20px;
 }
+.about-whoAre a{
+    display: block;
+    width: fit-content;
+    margin-bottom: 20px;
+}
 .about-whoAre .text{
     margin-top: 60px;
 }
@@ -1031,9 +1041,11 @@ text-align: center;
     width: 80%;
     margin: 15px auto ;
 }
-.about-end .text-img button{
-width: 50%;
+.about-end .text-img a{
 font-size: 20px;
+display: block;
+width: 50%;
+margin: 0 auto;
 }
 @media (max-width:576px) {
     .about-end .image .text-img h4{
@@ -1110,7 +1122,7 @@ font-size: 20px;
     font-size: 20px;
 }
 .bussines-whyUs .text{
-    margin-top: 90px;
+    margin-top: 40px;
 }
 .bussines-whyUs h3{
     font-size: 37px;
@@ -1119,6 +1131,9 @@ font-size: 20px;
 .bussines-whyUs ul {
     margin: 0;
     padding: 0;
+}
+.bussines-whyUs ul{
+margin-bottom: 30px;
 }
 .bussines-whyUs ul li{
     margin-bottom: 15px;
