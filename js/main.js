@@ -36,3 +36,11 @@ document.querySelector("#up").addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+// language btn
+let languageOpen = document.querySelector(".language");
+let languageBtns = document.querySelector(".lang");
+languageOpen.addEventListener("click", (e) => {
+  languageOpen.classList.toggle("languageOn");
+  languageBtns.classList.toggle("langOn");
+});

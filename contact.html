@@ -14,16 +14,23 @@
   
     <!-- styling link -->
     <link rel="stylesheet" href="css/style.css">
-    <title>FDS COMPANY</title>
+   <!-- shortcut icon img -->
+   <link rel="shortcut icon" href="imgs/logo.jpg" type="">
+   <title>ANGHAM COMPANY</title>
 </head>
 <body>
     <!-- up btn -->
     <span id="up"><i class="fa-solid fa-up-long"></i></span>
+    <span title="اختار لغتك" class="language"><i class="fa-solid fa-language icon"></i></span>
+    <div class="lang">
+      <button data-btn="ar" data-lang="car"  class="ar active">العربية</button>
+      <button data-btn="en" data-lang="cen" class="en">الانجليزية</button>
+    </div>
 <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg fixed-top ">
         <div class="container">
-          <a class="navbar-brand img-fluid " href="index.html"><img src="imgs/logo2.jpg"   alt="logo brand"loading="lazy"></a>
+          <a class="navbar-brand img-fluid " href="index.html"><img src="imgs/logo.jpg"   alt="logo brand"loading="lazy"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="one"></span>
             <span class="two"></span>
@@ -32,17 +39,17 @@
           <div class="collapse navbar-collapse mobile" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html">الصفحة الرئيسية</a>
+                <a class="nav-link " aria-current="page" href="index.html" data-lang="Chome">الصفحة الرئيسية</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="about.html">من نحن</a>
+                <a class="nav-link" href="about.html" data-lang="Cabout">من نحن</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link " href="bussines.html">للاعمال</a>
+                <a class="nav-link " href="bussines.html"data-lang="Cbusiness">للاعمال</a>
               </li>
             </ul>
             <div class="contact">
-              <a class="main-btn text-white" href="contact.html">تواصل معنا</a>
+              <a class="main-btn text-white" href="contact.html"data-lang="Ccontact">تواصل معنا</a>
             </div>
         
           </div>
@@ -50,9 +57,9 @@
       </nav>
 <!-- end nav -->
 <div class="contact-hero text-center">
-    <div class="info-text">
-        <h2 class=" wow fadeInDown">ابقى على تواصل!</h2>
-       <h3 class=" wow fadeInDown">سواء كان لديك سؤال حول رغبتك في تسجيل عملك أو أي شيء آخر ، سيقوم فريقنا بالإجابة على جميع أسئلتك.
+    <div class="info-text" >
+        <h2 class=" wow fadeInDown" data-lang="CH2">ابقى على تواصل!</h2>
+       <h3 class=" wow fadeInDown"data-lang="CH3" >سواء كان لديك سؤال حول رغبتك في تسجيل عملك أو أي شيء آخر ، سيقوم فريقنا بالإجابة على جميع أسئلتك.
 </h3>
     </div>
   </div>
@@ -61,24 +68,24 @@
     <div class="row">
         <div class="col-lg-4 col-md-12">
             <div class="text">
-              <h4 class="fs-1 fw-bold mb-4">مكاتبنا</h4>
-              <p>
+              <h4 class="fs-1 fw-bold mb-4" data-lang="coffices">مكاتبنا</h4>
+              <div class="div">
                   <i class="fa-solid fa-location-dot"></i>
-                 مكتب الامارات,العين
-              </p>
-              <p>
+                  <h4 data-lang="cadd1"> مكتب الامارات,العين</h4>
+              </div>
+              <div class="div">
                 <i class="fa-solid fa-location-dot"></i>
-                مكتب الامارات,باقي الامارات
-             </p> 
+               <h4 data-lang="cadd2"> مكتب الامارات,باقي الامارات</h4>
+             </div> 
       
             </div>
             <div class="text">
-              <h4 class="fs-1 fw-bold mb-4">تجدنا</h4>
+              <h4 class="fs-1 fw-bold mb-4"  data-lang="foundus">تجدنا</h4>
               <div class="social d-flex">
-                  <a href="https://www.facebook.com/profile.php?id=100091615874671" class="div"><i class="fa-brands fa-facebook s1"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100094607580332" class="div"><i class="fa-brands fa-facebook s1"></i></a>
                   <a href="https://wa.me/+9710521129595" class="div"><i class="fa-brands fa-whatsapp s2"></i></a>
-                  <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="div"><i class="fa-brands fa-instagram s3"></i></a>
-                  <a href="https://mobile.twitter.com/Fawry7FDS?fbclid=IwAR3AzjfhHjpz1On_0K2mvpkiGr6te6NpYUvi4nxMR-lHRmAFhUcWcaCfCys" class="div"><i class="fa-brands fa-twitter s4"></i></a>
+                  <!-- <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="div"><i class="fa-brands fa-instagram s3"></i></a> -->
+                  <a href="https://twitter.com/AnghamComp28996" class="div"><i class="fa-brands fa-twitter s4"></i></a>
                 </div>
             </div>
           </div>
@@ -87,16 +94,16 @@
                 <input type="hidden" name="_subject" value="New Email!">
                 <div class="input-img d-flex align-items-center">
                     <div class="inputs">
-                        <label for="name">ادخل اسمك</label>
-                        <input id="name" class="d-block" type="text" placeholder="أسمك" required>
-                        <label for="email">ادخل الايميل</label>
-                        <input id="email" type="email" placeholder="الايميل" required>
+                        <label data-lang="Enteryourname" for="name">ادخل اسمك</label>
+                        <input id="name" class="d-block" type="text"  required>
+                        <label data-lang="Enteryouremail" for="name" for="email">ادخل الايميل</label>
+                        <input id="email" type="email"  for="name" required>
                     </div>
                     <img class="img-fluid" src="imgs/contact-form.svg" width="200" alt="تواصل معنا"loading="lazy">
                 </div>
-                <textarea id="message" name="message" placeholder="اترك رسالتك"></textarea>
-                <button type="submit" class="main-btn text-white">ارسل</button>
-                <button type="reset" class="main-btn btn2  text-white">الغاء</button>
+                <textarea id="message" name="message" data-lang="message" placeholder="اترك رسالتك"></textarea>
+                <button type="submit" class="main-btn text-white"data-lang="send" >ارسل</button>
+                <button type="reset" class="main-btn btn2  text-white" data-lang="reset">الغاء</button>
             </form>          
             </div>
     </div>
@@ -107,23 +114,23 @@
    <div class="row">
       <div class="col-lg-3 col-md-6">
           <div class="box box1">
-              <h2>FDS</h2>
-              <div class="social">
-                <a href="https://www.facebook.com/profile.php?id=100091615874671" class="div"><i class="fa-brands fa-facebook s1"></i></a>
+              <h2 data-lang="Fch2" >أنغام</h2>
+              <div class="social my-3">
+                <a href="https://www.facebook.com/profile.php?id=100094607580332" class="div"><i class="fa-brands fa-facebook s1"></i></a>
                 <a href="https://wa.me/+9710521129595" class="div"><i class="fa-brands fa-whatsapp s2"></i></a>
-                <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="div"><i class="fa-brands fa-instagram s3"></i></a>
-                <a href="https://mobile.twitter.com/Fawry7FDS?fbclid=IwAR3AzjfhHjpz1On_0K2mvpkiGr6te6NpYUvi4nxMR-lHRmAFhUcWcaCfCys" class="div"><i class="fa-brands fa-twitter s4"></i></a>
+                <!-- <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="div"><i class="fa-brands fa-instagram s3"></i></a> -->
+                <a href="https://twitter.com/AnghamComp28996" class="div"><i class="fa-brands fa-twitter s4"></i></a>
               </div>
-              <p>أي شيء من أي مكان في مدينتك</p>
+              <p data-lang="Fcp">للصيانة العامة وإدارة العقارات</p>
           </div>
       </div>
       <div class="col-lg-3 col-md-6">
           <div class="box box2">
               <ul class="links">
-                <li><a href="index.html"><i class="fa-solid fa-angles-left"></i>الصفحة الرئيسية </a></li>
-                <li><a href="about.html"><i class="fa-solid fa-angles-left"></i> من نحن</a></li>
-                <li><a href="bussines.html"><i class="fa-solid fa-angles-left"></i>للأعمال</a></li>
-                <li><a class="contact" href="contact.html"><i class="fa-solid fa-angles-left"></i> تواصل معنا</a></li>
+                <li><a href="index.html" data-lang="Fchome"><i class="fa-solid fa-angles-left"></i>الصفحة الرئيسية </a></li>
+                <li><a href="about.html" data-lang="Fcabout"><i class="fa-solid fa-angles-left"></i> من نحن</a></li>
+                <li><a href="bussines.html" data-lang="Fcbus"><i class="fa-solid fa-angles-left"></i>للأعمال</a></li>
+                <li><a class="contact" href="contact.html" data-lang="Fccon"><i class="fa-solid fa-angles-left"></i> تواصل معنا</a></li>
               </ul>
             </div>
       </div>
@@ -131,28 +138,28 @@
           <div class="box box3">
               <div class="line">
                 <i class="fas fa-map-marker-alt fa-fw"></i>
-                <div class="info">الإمارات, العين</div>
+                <div data-lang="Fcaddress" class="info">الإمارات, العين</div>
               </div>
               <div class="line">
                 <i class="far fa-clock fa-fw"></i>
-                <div class="info">مواعيد العمل : علي مدار ال24 ساعة</div>
+                <div data-lang="FcTime" class="info">مواعيد العمل : علي مدار ال24 ساعة</div>
               </div>
               <div class="line">
                 <i class="fas fa-phone-volume fa-fw"></i>
                 <div class="info">
-                  <span>+0521129595</span>
+                  <span>+971 52 112 9595</span>
                 </div>
               </div>
             </div>
       </div>
       <div class="col-lg-3 col-md-6">
           <div class="box footer-gallery">
-              <img class="img-fluid"  src="imgs/s1.jpeg" alt="معرض1" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s2.jpg" alt="معرض2" width="80px" loading="lazy"/>
-              <img class="img-fluid" src="imgs/s3.webp" alt="معرض3" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s4.jpg" alt="معرض4" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s5.jpeg" alt="معرض5" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s6.jpeg" alt="معرض6" width="80px"loading="lazy" />
+              <img class="img-fluid"  src="imgs/annually.webp" alt="معرض1" width="80px" loading="lazy" />
+              <img class="img-fluid" src="imgs/electricity.jpeg" alt="معرض2" width="80px"loading="lazy" />
+              <img class="img-fluid" src="imgs/repair.jpeg" alt="معرض3" width="80px" loading="lazy" />
+              <img class="img-fluid" src="imgs/plum.webp" alt="معرض4" width="80px" loading="lazy" />
+              <img class="img-fluid" src="imgs/civil.jpeg" alt="معرض5" width="80px" loading="lazy" />
+              <img class="img-fluid" src="imgs/condition.webp" alt="معرض6" width="80px" loading="lazy" />
     
              
             </div>
@@ -173,6 +180,7 @@
  <script>
  new WOW().init();
  </script>
+    <script src="js/translation.js"></script>
    
 </body>
 </html>

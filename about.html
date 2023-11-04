@@ -14,16 +14,23 @@
  
     <!-- styling link -->
     <link rel="stylesheet" href="css/style.css">
-    <title>FDS COMPANY</title>
+     <!-- shortcut icon img -->
+     <link rel="shortcut icon" href="imgs/logo.jpg" type="">
+     <title>ANGHAM COMPANY</title>
 </head>
 <body>
     <!-- up btn -->
     <span id="up"><i class="fa-solid fa-up-long"></i></span>
+    <span title="اختار لغتك" class="language"><i class="fa-solid fa-language icon"></i></span>
+    <div class="lang">
+      <button data-btn="ar" data-lang="bar" class="ar active">العربية</button>
+      <button data-btn="en" data-lang="ben" class="en">الانجليزية</button>
+    </div>
 <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg fixed-top ">
         <div class="container">
-          <a class="navbar-brand img-fluid " href="index.html"><img src="imgs/logo2.jpg"   alt="logo brand" loading="lazy"></a>
+          <a class="navbar-brand img-fluid " href="index.html"><img src="imgs/logo.jpg"   alt="logo brand" loading="lazy"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="one"></span>
             <span class="two"></span>
@@ -32,17 +39,17 @@
           <div class="collapse navbar-collapse mobile" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html">الصفحة الرئيسية</a>
+                <a class="nav-link " aria-current="page" href="index.html" data-lang="bhome">الصفحة الرئيسية</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link active" href="about.html">من نحن</a>
+                <a class="nav-link active" href="about.html" data-lang="babout">من نحن</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="bussines.html">للأعمال</a>
+                <a class="nav-link" href="bussines.html"data-lang="bbussines">للأعمال</a>
               </li>
             </ul>
             <div class="contact">
-              <a class="main-btn text-white" href="contact.html">تواصل معنا</a>
+              <a class="main-btn text-white" href="contact.html"data-lang="bcontact">تواصل معنا</a>
             </div>
         
           </div>
@@ -52,8 +59,8 @@
 <!--hero-->
   <div class="about-hero text-center">
     <div class="info-text ">
-        <h2 class="wow fadeInDown">أقرأ أكثر <span>عنا</span></h2>
-        <h3 class="wow fadeInDown">حيث بدأ كل شيء</h3>
+        <h2 data-lang="binfo" class="wow fadeInDown">أقرأ أكثر عنا</h2>
+        <h3 data-lang="binfoH3" class="wow fadeInDown">حيث بدأ كل شيء</h3>
     </div>
   </div>
 
@@ -62,14 +69,14 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="box mt-4 wow fadeInDown">
-                <h2>من نحن؟</h2>
-                <p>تأسست شركة Fawry Delivery Services
-                    في عام 2023، وهي شركة توصيل شاملة تقدم خدمات التوصيل في مجموعة واسعة من المناطق والمدن في الأمارات تهدف الشركة إلى تحسين خدمات التوصيل الحالية وجعلها أكثر سهولة وفعالية </p>
-                    <a class="main-btn text-white " href="contact.html">تواصل معنا</a>
+                <h2 data-lang="bboxH2">من نحن؟</h2>
+                <p  data-lang="bboxp" class="text-black-50">أنغام للصيانة العامة والعقارية هي شركة مقرها الإمارات العربية المتحدة في العين ، 
+                  تأسست في عام 1990 ، متخصصة في الصيانة العامة والعقارات وفقا للمعايير والسياسات المحلية والدولية ، هدفنا الرئيسي هو تزويد عملائنا بمنتجات عالية الجودة تضيف قيمة إلى أعمالهم إلى جانب خدمات الصيانة الممتازة</p>
+                    <a  data-lang="bboxbtn" class="main-btn text-white " href="contact.html">تواصل معنا</a>
                 </div>
            </div>
         <div class="col-lg-6">
-          <img class="img-fluid rounded" src="imgs/about2.webp" alt="من نحن" loading="lazy">
+          <img  class="img-fluid rounded about-img" src="imgs/about2.webp" alt="من نحن" loading="lazy">
         </div>
           </div>
   
@@ -80,10 +87,10 @@
       <div class="image">
         <img src="imgs/about-cta-shape.svg" alt="توصيل المنتجات" loading="lazy">
         <div class="text-img">
-            <h4>حياتنا في خدمات توصيل فوري</h4>
-            <h5>البيئة ، فضاء مفتوح ، مرن ، ممتع ، على مدار الساعة ، في جميع أنحاء المنطقة.
+            <h4 data-lang="bendH4">حياتنا في أنغام</h4>
+            <h5  data-lang="bendH5">البيئة ، فضاء مفتوح ، مرن ، ممتع ، على مدار الساعة ، في جميع أنحاء المنطقة.
             </h5>
-            <a class="main-btn text-white " href="bussines.html" width="50%">للأعمال</a>
+            <a  data-lang="bendbtn" class="main-btn text-white " href="bussines.html" width="50%">للأعمال</a>
         </div>
       </div>
   </div>
@@ -92,23 +99,23 @@
    <div class="row">
       <div class="col-lg-3 col-md-6">
           <div class="box box1">
-              <h2>FDS</h2>
-              <div class="social">
-                <a href="https://www.facebook.com/profile.php?id=100091615874671" class="div"><i class="fa-brands fa-facebook s1"></i></a>
+              <h2 data-lang="bfootH2">أنغام</h2>
+              <div class="social my-3">
+                <a href="https://www.facebook.com/profile.php?id=100094607580332" class="div"><i class="fa-brands fa-facebook s1"></i></a>
                 <a href="https://wa.me/+9710521129595" class="div"><i class="fa-brands fa-whatsapp s2"></i></a>
-                <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="div"><i class="fa-brands fa-instagram s3"></i></a>
-                <a href="https://mobile.twitter.com/Fawry7FDS?fbclid=IwAR3AzjfhHjpz1On_0K2mvpkiGr6te6NpYUvi4nxMR-lHRmAFhUcWcaCfCys" class="div"><i class="fa-brands fa-twitter s4"></i></a>
+                <!-- <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="div"><i class="fa-brands fa-instagram s3"></i></a> -->
+                <a href="https://twitter.com/AnghamComp28996" class="div"><i class="fa-brands fa-twitter s4"></i></a>
               </div>
-              <p>أي شيء من أي مكان في مدينتك</p>
+              <p data-lang="bfooterP">للصيانة العامة وإدارة العقارات</p>
           </div>
       </div>
       <div class="col-lg-3 col-md-6">
           <div class="box box2">
               <ul class="links">
-                <li><a href="index.html"><i class="fa-solid fa-angles-left"></i>الصفحة الرئيسية </a></li>
-                <li><a href="about.html"><i class="fa-solid fa-angles-left"></i> من نحن</a></li>
-                <li><a href="bussines.html"><i class="fa-solid fa-angles-left"></i>للأعمال</a></li>
-                <li><a class="contact" href="contact.html"><i class="fa-solid fa-angles-left"></i> تواصل معنا</a></li>
+                <li><a href="index.html" data-lang="bfooterhome"><i class="fa-solid fa-angles-left" ></i>الصفحة الرئيسية </a></li>
+                <li><a href="about.html" data-lang="bfooterabout"><i class="fa-solid fa-angles-left" ></i> من نحن</a></li>
+                <li><a href="bussines.html" data-lang="bfooterbusiness"><i class="fa-solid fa-angles-left" ></i>للأعمال</a></li>
+                <li><a class="contact" href="contact.html" data-lang="bfootercontact"><i class="fa-solid fa-angles-left" ></i> تواصل معنا</a></li>
               </ul>
             </div>
       </div>
@@ -116,28 +123,28 @@
           <div class="box box3">
               <div class="line">
                 <i class="fas fa-map-marker-alt fa-fw"></i>
-                <div class="info">الإمارات, العين</div>
+                <div data-lang="bfooterAddress" class="info">الإمارات, العين</div>
               </div>
               <div class="line">
                 <i class="far fa-clock fa-fw"></i>
-                <div class="info">مواعيد العمل : علي مدار ال24 ساعة</div>
+                <div data-lang="bfooterTime" class="info">مواعيد العمل : علي مدار ال24 ساعة</div>
               </div>
               <div class="line">
                 <i class="fas fa-phone-volume fa-fw"></i>
                 <div class="info">
-                  <span>+0521129595</span>
+                  <span>+971 52 112 9595</span>
                 </div>
               </div>
             </div>
       </div>
       <div class="col-lg-3 col-md-6">
           <div class="box footer-gallery">
-              <img class="img-fluid"  src="imgs/s1.jpeg" alt="معرض1" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s2.jpg" alt="معرض2" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s3.webp" alt="معرض3" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s4.jpg" alt="معرض4" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s5.jpeg" alt="معرض5" width="80px"loading="lazy" />
-              <img class="img-fluid" src="imgs/s6.jpeg" alt="معرض6" width="80px"loading="lazy" />
+              <img class="img-fluid"  src="imgs/annually.webp" alt="معرض1" width="80px" loading="lazy" />
+              <img class="img-fluid" src="imgs/electricity.jpeg" alt="معرض2" width="80px"loading="lazy" />
+              <img class="img-fluid" src="imgs/repair.jpeg" alt="معرض3" width="80px" loading="lazy" />
+              <img class="img-fluid" src="imgs/plum.webp" alt="معرض4" width="80px" loading="lazy" />
+              <img class="img-fluid" src="imgs/civil.jpeg" alt="معرض5" width="80px" loading="lazy" />
+              <img class="img-fluid" src="imgs/condition.webp" alt="معرض6" width="80px" loading="lazy" />
     
              
             </div>
@@ -158,5 +165,7 @@
  <script>
  new WOW().init();
  </script>
+    <script src="js/translation.js"></script>
+
 </body>
 </html>

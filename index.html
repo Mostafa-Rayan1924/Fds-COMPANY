@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- meta description  -->
-    <meta name="description" content="استمتع بخدمات فورية للتوصيل مع خدمات فورى للتوصيل، حيث نوفر لك تجربة تسوق مريحة وسريعة من خلال توصيل طلباتك في أسرع وقت ممكن. اطلب الآن واستلم طلبك في دقائق مع خدمات فورى للتوصيل.">
-     
+    <meta name="description" content="شركة أنغام للصيانة العامة وإدارة العقارات متخصصة في الصيانة العامة والعقارات وفقا للمعايير والسياسات المحلية والدولية ، هدفنا الرئيسي هو تزويد عملائنا بمنتجات عالية الجودة تضيف قيمة إلى أعمالهم إلى جانب خدمات الصيانة الممتازة">
     <!-- shortcut icon img -->
-      <link rel="shortcut icon" href="imgs/logo2.jpg" type="">
+      <link rel="shortcut icon" href="imgs/logo.jpg" type="">
+    <title>ANGHAM COMPANY</title>
 <!-- wow -->
     <link rel="stylesheet"  href="css/animate.css">
     <!-- bootstrab -->
@@ -18,16 +18,21 @@
  
     <!-- styling link -->
     <link rel="stylesheet" href="css/style.css">
-    <title>FDS COMPANY</title>
 </head>
 <body>
     <!-- up btn -->
     <span id="up"><i class="fa-solid fa-up-long"></i></span>
+    <!-- lang -->
+      <span title="اختار لغتك" class="language"><i class="fa-solid fa-language icon"></i></span>
+      <div class="lang">
+        <button data-btn="ar" data-lang="Har"  class="ar active">العربية</button>
+        <button data-btn="en" data-lang="Hen" class="en">الانجليزية</button>
+      </div>
 <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-          <a class="navbar-brand img-fluid " href="index.html"><img src="imgs/logo2.jpg"   alt="logo brand" loading="lazy"></a>
+          <a class="navbar-brand img-fluid " href="index.html"><img src="imgs/logo.jpg"   alt="logo brand" loading="lazy"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="one"></span>
             <span class="two"></span>
@@ -36,17 +41,17 @@
           <div class="collapse navbar-collapse mobile" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+                <a class="nav-link active" aria-current="page" href="#" data-lang="home">الصفحة الرئيسية</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">من نحن</a>
+                <a class="nav-link" href="about.html" data-lang="about">من نحن</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="bussines.html">للأعمال</a>
+                <a class="nav-link" href="bussines.html" data-lang="business">للأعمال</a>
               </li>
             </ul>
             <div class="contact">
-                 <a class="main-btn text-white" href="contact.html">تواصل معنا</a>
+                 <a class="main-btn text-white" href="contact.html"data-lang="contact">تواصل معنا</a>
             </div>
         
           </div>
@@ -60,29 +65,30 @@
   <div id="orangeStar" class="str2"></div>
   <div id="purpleStar" class="str3"></div>
   <div id="purpleStar" class="str4"></div>
-        <video autoplay muted loop playsinline>
-            <source src="imgs/vid.mp4" type="video/mp4" />
+        <video  autoplay muted loop playsinline >
+            <source src="imgs/vid.mp4" />
         </video>
     <div class="container">
           <div class="intro-text">
-            <h2 class="info wow fadeInDown">أي شيء من <br>أى مكان في مدينتك</h2>
+            <h2 style="max-width: 900px;  margin-bottom: 20px; font-size: 52px;" class="info wow fadeInDown" data-lang="heroH2Title">شركة أنغام 
+              للصيانة العامة وإدارة العقارات</h2>
           </div>
           <div class="icons  ">
-            <a href="https://www.facebook.com/profile.php?id=100091615874671" class="parent">
+            <a href="https://www.facebook.com/profile.php?id=100094607580332" class="parent">
                 <div class="icon face"><i class="fa-brands fa-facebook "></i></div>
-              <span>facebook</span>
+              <span data-lang="facebook">facebook</span>
             </a>
-            <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="parent">
+            <!-- <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="parent">
                 <div  class="icon insta"><i class="fa-brands fa-instagram "></i></div>
               <span>instagram</span>
-            </a>
+            </a> -->
             <a href="https://wa.me/+9710521129595" class="parent par3">
                 <div class="icon whats"><i class="fa-brands fa-whatsapp "></i></div>
-              <span>whatsapp</span>
+              <span data-lang="whatsapp">whatsapp</span>
             </a>
-            <a href="https://mobile.twitter.com/Fawry7FDS?fbclid=IwAR3AzjfhHjpz1On_0K2mvpkiGr6te6NpYUvi4nxMR-lHRmAFhUcWcaCfCys" class="parent par4">
+            <a href="https://twitter.com/AnghamComp28996" class="parent par4">
                 <div class="icon twitter"><i class="fa-brands fa-twitter "></i></div>
-              <span>twitter</span>
+              <span data-lang="twitter" >twitter</span>
             </a>
           </div>
        </div>
@@ -99,57 +105,63 @@
   <span class="span c2"></span>
   <span class="span c3"></span>
   <span class="span c4"></span>
-    <h2 class="main-title text-center ">ماذا نقدم لكم؟</h2>
+    <h2 class="main-title text-center " data-lang="mainTitleServ">ماذا نقدم لكم؟</h2>
     <div class="container">
         <div class="parent">
             <div class="box d-flex align-items-center wow fadeInDown">
                 <div class="text">
-                    <i class="fa-solid fa-gauge-high"></i>
-                    <h3>سرعة كبيرة</h3>
-                    <p>طلبك رح يوصل بمدة قصيرة.. عمل لكافه انحاء الامارات لكثره طرق التوصيل المتوزعه في كافة المناطق</p>
+                  <i class="fa-regular fa-calendar-check"></i>
+                    <h3 data-lang="annually">عقد سنوي</h3>
+                    <p data-lang="pOfanually">ركز على عملك الأساسي بينما يدير خبراؤنا عقاراتك.</p>
                 </div>
-                <img class="img-fluid" src="imgs/s1.jpeg" alt="سرعةالتوصيل" loading="lazy">
+                <img class="img-fluid" src="imgs/annually.webp" alt="سرعةالتوصيل" loading="lazy">
             </div>
             <div class="box d-flex align-items-center  wow fadeInDown">
-              <img class="img-fluid" src="imgs/s2.jpg" alt=" جودة عالية" loading="lazy">
+              <img class="img-fluid" src="imgs/condition.webp" alt=" جودة عالية" loading="lazy">
                 <div class="text">
-                  <i class="fa-solid fa-clipboard-check"></i>
-                    <h3>جودة عالية</h3>
-                    <p>فريق مختص بخبرة كبيرة في التغليف والتوصيل لضمان وصول طلبك بدون اي أضرار وبشكل كامل لكافه وبكفاءة عالية</p>
-                </div>
-              
-            </div>
-            <div class="box d-flex align-items-center  wow fadeInDown">
-                <div class="text">
-                  <i class="fa-solid fa-credit-card"></i>
-                    <h3>أسعار رمزية</h3>
-                    <p>نقدم لكم أفضل الأسعار المنافسه لكافه الشركات في كافة أنحاء الامارات بالإضافة إلي كوبونات خصم إذا كانت الكميات كبيرة</p>
-                </div>
-                <img class="img-fluid" src="imgs/s6.jpeg" alt="أسعار رمزية" loading="lazy">
-            </div>
-            <div class="box d-flex align-items-center  wow fadeInDown">
-              <img class="img-fluid" src="imgs/s3.webp" alt="التوصيل الي المنازل" loading="lazy">
-                <div class="text">
-                  <i class="fa-solid fa-house-circle-check"></i>
-                    <h3>التوصيل الي المنازل</h3>
-                     <p>يوجد خدمة التوصيل إلى المنازل في حاله طلب العميل هذه الخدمة</p>
+                  <i class="fa-solid fa-fan"></i>
+                    <h3 data-lang="condition">تكييف الهواء</h3>
+                    <p data-lang="pOfcondition">نحن نقدم خدمات التكييف التي تشمل مرشحات التيار المتردد والتفتيش 
+                      من منظمات الحرارة ، تزييت الأجزاء المتحركة ، فحص التركيبات الكهربائية.</p>
                 </div>
               
             </div>
             <div class="box d-flex align-items-center  wow fadeInDown">
                 <div class="text">
-                  <i class="fa-solid fa-truck"></i>
-                    <h3>أماكن التوصيل</h3>
-                   <p>التوصيل متاح لكافة أنحاء الامارات في أى منطقه</p>
+                  <i class="fa-solid fa-wrench"></i>
+                    <h3 data-lang="plum">السباكه</h3>
+                    <p data-lang="pOfplum">نحن نقدم خدمات السباكة لمنع التسرب والأضرار ومنع انسداد المصارف ، 
+                      خدمة مضخات المياه والصمامات ، وبالتالي جميع خدمات السباكة للفيلا والمكاتب والشقق الخاصة بك.</p>
                 </div>
-                <img class="img-fluid" src="imgs/s4.jpg" alt="اماكن التوصيل" loading="lazy">
+                <img class="img-fluid" src="imgs/plum.webp" alt="أسعار رمزية" loading="lazy">
             </div>
             <div class="box d-flex align-items-center  wow fadeInDown">
-              <img class="img-fluid" src="imgs/s5.jpeg" alt="طرق التواصل" loading="lazy">
+              <img class="img-fluid" src="imgs/electricity.jpeg" alt="التوصيل الي المنازل" loading="lazy">
                 <div class="text">
-                  <i class="fa-solid fa-location-arrow"></i>
-                    <h3>طرق التواصل </h3>
-                    <p>يمكن التواصل معنا عن طريق مواقع التواصل الاجتماعي أو عن طريق الأتصال بالهاتف المحمول</p>
+                  <i class="fa-solid fa-plug-circle-bolt"></i>
+                    <h3 data-lang="electricity">كهربائي</h3>
+                   <p data-lang="pOfelectricity">نحن نقدم الخدمات الكهربائية مثل تركيبات الإضاءة والملحقات الكهربائية و 
+                    تثبيت DB في منزلك. نحن نعتبر السلامة أولا.</p>
+                </div>
+              
+            </div>
+            <div class="box d-flex align-items-center  wow fadeInDown">
+                <div class="text">
+                  <i class="fa-solid fa-screwdriver-wrench"></i>
+                   <h3 data-lang="repair">تركيب وإصلاح معدات السلامة 
+                    وأنظمة إطفاء الحريق</h3>
+                   <p data-lang="pOfrepair">نحن نقدم تركيب وإصلاح معدات السلامة وإطفاء الحرائق 
+                    نظم. نحن نعتبر السلامة أولا.</p>
+                </div>
+                <img class="img-fluid" src="imgs/repair.jpeg" alt="اماكن التوصيل" loading="lazy">
+            </div>
+            <div class="box d-flex align-items-center  wow fadeInDown">
+              <img class="img-fluid" src="imgs/civil.jpeg" alt="طرق التواصل" loading="lazy">
+                <div class="text">
+                  <i class="fa-solid fa-person-digging"></i>
+                  <h3 data-lang="civil">الأعمال المدنية</h3>
+                  <p data-lang="pOfcivil">نحن نقدم خدمات مدنية ممتازة مثل تركيب بلاط الجدران والأرضيات ، 
+                    إصلاح الشقوق من الداخل والخارج ، الطلاء والسقف الداخلي.</p>
                 </div>
             </div>
         </div>
@@ -161,15 +173,17 @@
 <!-- الوصول إلى ملايين العملاء -->
 <div class="reach text-center sec ">
     <div class="info-text">
-        <h2>الوصول إلى ملايين العملاء</h2>
-        <p>توفر خدمات التوصيل فوري للأعمال لعملك إمكانية الوصول إلى قاعدة مستخدمين ضخمة ، سواء كنت ترغب في التحول إلى التجارة الإلكترونية عند الطلب ، أو ببساطة تبحث عن قناة إضافية ، فهي موجودة دائما للمساعدة!
-        </p>
+        <h2 data-lang="reachH2">طموحاتنا</h2>
+       <p data-lang="pOfreach">نطمح للعمل على أكبر مشاريع الهياكل الضخمة 
+        في الولايات المتحدة في دولة الإمارات العربية المتحدة وتصبح واحدة من الشركات الكبرى في الولايات المتحدة وتصبح واحدة من الشركات الكبرى في
+         على مستوى الخليج و و ال الخليج و العالم و التوسع 
+        فروع الشركة الممتدة في الإمارات العربية المتحدة</p>
     </div>
 </div>
 
 <!-- كيف نفعل ذلك -->
 <div class="howDoingThat sec">
-    <h2 class="main-title text-center">كيف نفعل ذلك؟</h2>
+    <h2 class="main-title text-center" data-lang="doingTitle">كيف نفعل ذلك؟</h2>
     <div class="container">
         <div class="wrapper wow fadeInDown">
             <div class="img img-fluid">
@@ -177,11 +191,13 @@
             </div>
             <div class="box">
             <div class="info">
-                <h2>تجربة توصيل شخصية</h2>
-                <p>تحكم في تجارب التسليم الخاصة بك في الوقت الفعلي من خلال التواصل معاك اثناء جميع مراحل العمليه</p>
-                <div class="btns-parent d-flex align-items-center">
-                    <button class="btn1"><a href="about.html">من نحن</a></button>
-                    <button class="btn1"><a href="contact.html">اتصل بنا</a></button>
+              <h2 data-lang="h2Ofdoing1">رؤيتنا</h2>
+              <p data-lang="pOfdoing1" style="width: 95%;">شركة إقليمية رائدة في السوق في توفير 
+                الهندسة المدنية والبناء 
+                خدمات البناء</p>
+              <div class="btns-parent d-flex align-items-center">
+                    <button  class="btn1"><a href="about.html" data-lang="who">من نحن</a></button>
+                    <button  class="btn1"><a href="contact.html" data-lang="call">اتصل بنا</a></button>
                 </div>
             </div>
             </div>
@@ -193,11 +209,13 @@
             </div>
             <div class="box box2">
              <div class="info info2">
-                <h2 class="mt-4">نظام مزايدة مرن</h2>
-                <p>يتم تحديد أسعار الخدمة مسبقا من خلال نظام المزايدة الخاص بنا ، مما يمنح العملاء حرية الاختيار من بين مزودي خدمة متعددين</p>
+                <h2 data-lang="h2Ofdoing2" class="mt-4">مهمتنا </h2>
+               <p data-lang="pOfdoing2" style="width: 95%;">نهدف إلى أن نكون شركة صيانة عامة على مستوى عالمي
+                وشركة عقارية تقدم كفاءة 
+                خدمات ميسورة التكلفة ومستدامة وفعالة من حيث التكلفة بأعلى جودة</p>
                 <div class="btns-parent d-flex align-items-center justify-content-center">
-                  <button class="btn1"><a href="about.html">من نحن</a></button>
-                  <button class="btn1"><a href="contact.html">اتصل بنا</a></button>
+                  <button  class="btn1"><a href="about.html" data-lang="who">من نحن</a></button>
+                  <button  class="btn1"><a href="contact.html" data-lang="call">اتصل بنا</a></button>
                 </div>
              </div>
             </div>
@@ -210,11 +228,12 @@
             </div>
             <div class="box">
               <div class="info">
-                <h2>حل الخرائط المتكاملة</h2>
-                <p>اختر أي مكان على الخريطة لطلب التسليم الخاص بك ، وتتبع طلبك في الوقت الفعلي</p>
+               <h2 data-lang="h2Ofdoing3">قيمنا</h2>
+               <p data-lang="pOfdoing3" style="width: 95%;">نحن نؤمن بالحفاظ على أعلى 
+                معيار الاحتراف والنزاهة والمواقف الإيجابية</p>
                 <div class="btns-parent d-flex align-items-center">
-                  <button class="btn1"><a href="about.html">من نحن</a></button>
-                  <button class="btn1"><a href="contact.html">اتصل بنا</a></button>
+                  <button class="btn1"><a href="about.html"  data-lang="who">من نحن</a></button>
+                  <button  class="btn1"><a href="contact.html" data-lang="about">اتصل بنا</a></button>
               </div>
               </div>
             <img id="ball3" src="imgs/purpleBall.png" alt="انيميشن" loading="lazy">
@@ -222,44 +241,88 @@
         </div>
     </div>
 </div>
+
+
+
 <!-- video section -->
 <div class="video sec ">
  
   <img id="dot1" src="imgs/dots.png" alt="ديكور" loading="lazy">
-    <h2 class="main-title text-center">الرحلة الجديدة
+    <h2 data-lang="videoH2" class="main-title text-center">المهمة الجديدة
         <br>
-        <p class="fs-5 text-black-50 my-2">غيرت معني المشوار FDS </p>
+        <p data-lang="videoP" class="fs-5 text-black-50 my-2">انغام اسم يعني الثقة</p>
     </h2>
-    <div class="video wow fadeInRightBig">
+    <div class="videos wow fadeInRightBig">
       <video autoplay muted loop playsinline src="imgs/vid.mp4"></video>
     </div>
-  <img id="dot2" src="imgs/dots.png" alt="ديكور" loading="lazy">
+  <img  id="dot2" src="imgs/dots.png" alt="ديكور" loading="lazy">
 </div>
 <!-- end video -->
-
+ <!-- projects -->
+ <div class="projects sec">
+  <h2 class="main-title text-center proSecTitle"data-lang="projectsTitle">بعض مشاريعنا العقارية</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <img class="img-fluid" src="imgs/image-133.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <img class="img-fluid" src="imgs/image-217.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <img class="img-fluid" src="imgs/image-213.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <img class="img-fluid" src="imgs/image-205.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <img class="img-fluid" src="imgs/image-201.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <img class="img-fluid" src="imgs/image-149.jpg" alt="">
+          </div>
+        </div>
+      
+        
+        
+        </div>
+    </div>
+  </div>
+  <!-- end projects -->
 
 <footer>
   <div class="container">
  <div class="row">
     <div class="col-lg-3 col-md-6">
         <div class="box box1">
-            <h2>FDS</h2>
-            <div class="social">
-              <a href="https://www.facebook.com/profile.php?id=100091615874671" class="div"><i class="fa-brands fa-facebook s1"></i></a>
+            <h2 data-lang="footerH2" >أنغام</h2>
+            <div class="social my-3">
+              <a href="https://www.facebook.com/profile.php?id=100094607580332" class="div"><i class="fa-brands fa-facebook s1"></i></a>
               <a href="https://wa.me/+9710521129595" class="div"><i class="fa-brands fa-whatsapp s2"></i></a>
-              <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="div"><i class="fa-brands fa-instagram s3"></i></a>
-              <a href="https://mobile.twitter.com/Fawry7FDS?fbclid=IwAR3AzjfhHjpz1On_0K2mvpkiGr6te6NpYUvi4nxMR-lHRmAFhUcWcaCfCys" class="div"><i class="fa-brands fa-twitter s4"></i></a>
+              <!-- <a href="https://www.instagram.com/fawrydeliveryservices/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR3SXM9H-JxdeQQXrDAAMoUUwVMFxj1tfeXCR0TkGT5SFLQjTXcxjgbuMNs" class="div"><i class="fa-brands fa-instagram s3"></i></a> -->
+              <a href="https://twitter.com/AnghamComp28996" class="div"><i class="fa-brands fa-twitter s4"></i></a>
             </div>
-            <p>أي شيء من أي مكان في مدينتك</p>
+            <p data-lang="footerP">للصيانة العامة وإدارة العقارات</p>
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
         <div class="box box2">
             <ul class="links">
-              <li><a href="index.html"><i class="fa-solid fa-angles-left"></i>الصفحة الرئيسية </a></li>
-              <li><a href="about.html"><i class="fa-solid fa-angles-left"></i> من نحن</a></li>
-              <li><a href="bussines.html"><i class="fa-solid fa-angles-left"></i>للأعمال</a></li>
-              <li><a class="contact" href="contact.html"><i class="fa-solid fa-angles-left"></i> تواصل معنا</a></li>
+              <li><a href="index.html"data-lang="footerhome"><i class="fa-solid fa-angles-left" ></i>الصفحة الرئيسية </a></li>
+              <li><a href="about.html"data-lang="footerabout"><i class="fa-solid fa-angles-left" ></i> من نحن</a></li>
+              <li><a href="bussines.html"data-lang="footerbusiness"><i class="fa-solid fa-angles-left"></i>للأعمال</a></li>
+              <li><a class="contact" href="contact.html"data-lang="footercontact"><i class="fa-solid fa-angles-left"></i> تواصل معنا</a></li>
             </ul>
           </div>
     </div>
@@ -267,28 +330,28 @@
         <div class="box box3">
             <div class="line">
               <i class="fas fa-map-marker-alt fa-fw"></i>
-              <div class="info">الإمارات, العين</div>
+              <div class="info" data-lang="footerAddress">الإمارات, العين</div>
             </div>
             <div class="line">
               <i class="far fa-clock fa-fw"></i>
-              <div class="info">مواعيد العمل : علي مدار ال24 ساعة</div>
+              <div class="info"data-lang="footerTime">مواعيد العمل : علي مدار ال24 ساعة</div>
             </div>
             <div class="line">
               <i class="fas fa-phone-volume fa-fw"></i>
               <div class="info">
-                <span>+0521129595</span>
+                <span>+971 52 112 9595</span>
               </div>
             </div>
           </div>
     </div>
     <div class="col-lg-3 col-md-6">
         <div class="box footer-gallery">
-            <img class="img-fluid"  src="imgs/s1.jpeg" alt="معرض1" width="80px" loading="lazy" />
-            <img class="img-fluid" src="imgs/s2.jpg" alt="معرض2" width="80px"loading="lazy" />
-            <img class="img-fluid" src="imgs/s3.webp" alt="معرض3" width="80px" loading="lazy" />
-            <img class="img-fluid" src="imgs/s4.jpg" alt="معرض4" width="80px" loading="lazy" />
-            <img class="img-fluid" src="imgs/s5.jpeg" alt="معرض5" width="80px" loading="lazy" />
-            <img class="img-fluid" src="imgs/s6.jpeg" alt="معرض6" width="80px" loading="lazy" />
+            <img class="img-fluid"  src="imgs/annually.webp" alt="معرض1" width="80px" loading="lazy" />
+            <img class="img-fluid" src="imgs/electricity.jpeg" alt="معرض2" width="80px"loading="lazy" />
+            <img class="img-fluid" src="imgs/repair.jpeg" alt="معرض3" width="80px" loading="lazy" />
+            <img class="img-fluid" src="imgs/plum.webp" alt="معرض4" width="80px" loading="lazy" />
+            <img class="img-fluid" src="imgs/civil.jpeg" alt="معرض5" width="80px" loading="lazy" />
+            <img class="img-fluid" src="imgs/condition.webp" alt="معرض6" width="80px" loading="lazy" />
   
            
           </div>
@@ -309,6 +372,6 @@
     <script>
     new WOW().init();
     </script>
-    
+    <script src="js/translation.js"></script>
 </body>
 </html>
